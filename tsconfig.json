@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ES2020",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "paths": {
+      "@styles/*": ["src/styles/*"]
+    }
+  },
+  "include": ["src"]
+}
